@@ -17,6 +17,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace Sts\Core;
+
+use Sts\Core\Exception\ClientException;
+use Sts\Core\Exception\ServerException;
+use Sts\Core\Regions\EndpointProvider;
+use Sts\Core\Http\HttpHelper;
+
 class DefaultAcsClient implements IAcsClient 
 {	
 	public $iClientProfile;
