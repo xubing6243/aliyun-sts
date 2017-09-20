@@ -1,0 +1,27 @@
+{
+    "name": "steveak/aliyun-sts",
+    "description": "aliyun-sts sdk",
+    "keywords": [
+        "aliyun", "sts", "oss"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.phalapi.net/",
+    "type": "library",
+    "authors": [
+        {
+            "name": "steve xu",
+            "email": "aer_c@qq.com",
+            "homepage": "https://github.com/xubing6243",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteveAK\\Aliyun\\Sts\\": "src"
+        }
+    }
+}
